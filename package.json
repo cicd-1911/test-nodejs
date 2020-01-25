@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "node index.js",
+    "test": "npm install inherits && mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/cicd-1911/test-nodejs#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "inherits": "^2.0.4",
+    "mocha": "^7.0.0",
+    "ms": "^2.1.2"
   }
 }
