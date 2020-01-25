@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cicd-1911/test-nodejs/issues"
   },
-  "homepage": "https://github.com/cicd-1911/test-nodejs#readme"
+  "homepage": "https://github.com/cicd-1911/test-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
